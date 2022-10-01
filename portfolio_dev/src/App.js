@@ -11,7 +11,6 @@ import {Route} from "react-router-dom"
 function App(){
     return(
       <Fragment>
-        hello
        <Splash/>
       <Navbar/>
       <Hero/>
