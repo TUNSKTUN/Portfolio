@@ -49,7 +49,7 @@ const Hero = () => {
             </button>
             <button type="link" className="md:flex rounded-full">
               <span className="transition ease-in-out hover:text-cyan-700 hover:scale-110 duration-200">
-                <a href="https://github.com/TUNSKTUN">
+                <a href="https://www.linkedin.com/in/yahya-khan-638654198/">
                   {<GrLinkedin className="text-5xl" />}
                 </a>
               </span>
