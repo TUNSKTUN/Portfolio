@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import TextTransition, { presets } from "react-text-transition";
 import { GrInstagram, GrLinkedin } from "react-icons/gr";
 import {BsArrowRight} from 'react-icons/bs';
-const Texts = ["a Programmer", "a Developer", "an Artist"];
+const Texts = ["a Programmer", "an Engineer", "an Artist"];
 const Hero = () => {
   const [index, setIndex] = React.useState(0);
 
@@ -32,7 +32,7 @@ const Hero = () => {
               </TextTransition>
           </div>
           <div className="justify-center space-x-10 text-skin-darkest pr-2 pl-2 font-bold rounded-md mt-0.5 md:flex pt-5">
-              <h1 className="text-xl mt-2 flex">Follow<BsArrowRight className="text-xl mt-1 ml-2"/></h1>
+              <h1 className="text-xl mt-2 flex">Socials<BsArrowRight className="text-xl mt-1 ml-2"/></h1>
             <button type="link" className="md:flex rounded-full">
               <span className="transition ease-in-out hover:text-pink-600 hover:scale-110 duration-200">
                 <a href="https://www.instagram.com/solo_perfecto24/">

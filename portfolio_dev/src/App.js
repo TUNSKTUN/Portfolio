@@ -11,7 +11,7 @@ import {Route} from "react-router-dom"
 function App(){
     return(
       <Fragment>
-       <Splash/>
+       {/* <Splash/> */}
       <Navbar/>
       <Hero/>
       <About/>

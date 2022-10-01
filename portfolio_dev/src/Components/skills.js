@@ -61,8 +61,8 @@ export default function skills() {
         <div className="justify-center text-center text-3xl w-1/2 bg-transparent backdrop-blur-md">
           <h1 className="text-4xl font-[Branch]">Technologies</h1>
           <p className=" bg-transparent text-center tracking-tighter text-xl flex p-5">
-            As a Proficient Engineer, I have explored and Understood quite a
-            handful of Techs & Tools mentioned below
+            As a Proficient Engineer, I have explored quite a
+            handful of Techs & Tools shown below
           </p>
           <div className="border-black border-spacing-3 m-2 bg-transparent p-3">
             <div className="text-6xl justify-between flex">

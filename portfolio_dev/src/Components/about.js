@@ -20,7 +20,7 @@ function about(){
                   Global Institute of Engineering & Technology (Tier-3) and
                   selected Computer Science as my Major. As a Practicing Engineer,
                   I am vastly interested in emerging technologies. A Self-paced Programmer who is looking for challenges in programming career.
-                  I am on a journey to expand my knowledge and to become valuable asset for the organization. I aim to become a better developer!.
+                  I am on a journey to expand my knowledge and to become valuable asset for the organization. I aim to become a better Engineer!.
                 </p>
               </div>
             </div>
