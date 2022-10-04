@@ -7,14 +7,14 @@ import { Switch, useLocation } from 'react-router-dom'
 function about(){
 
     return (
-      <div id="about" className="mb-20 bg-transparent">
-          <Parallax bgImage={CHAR} strength={150}>
-            <div className="jusitfy-center bg-skiner w-full md:h-auto font-[Branch] text-red-600 grid justify-center bg-transparent">
-              <div className="w-full mt-16 text-8xl tracking-widest justify-center text-center bg-transparent">
+         
+      <div id="about" className=" bg-transparent h-screen md:my-8 ">
+            <div className="jusitfy-center w-full md:h-auto font-[Branch] text-white grid justify-center bg-transparent">
+              <div className="w-full md:mt-16 md:text-8xl text-6xl tracking-widest justify-center text-center bg-transparent pt-20 md:p-3">
                 <h1>About</h1>
               </div>
-              <div className="w-full mt-12 text-xl justify-center text-justify bg-transparent tracking-tighter p-10 m-5 mb-36   ">
-                <p className="w-96">
+              <div className="w-full mt-10 md:text-xl text-lg justify-center text-justify bg-transparent tracking-tighter">
+                <p className="md:w-96 w-80 justify-center ">
                   I am an Aspiring Software Engineer from
                   Hyderabad, India. I have acquired my Bachelors Degree from
                   Global Institute of Engineering & Technology (Tier-3) and
@@ -24,8 +24,8 @@ function about(){
                 </p>
               </div>
             </div>
-          </Parallax>
         </div>
+         
   );
 }
 export default about;

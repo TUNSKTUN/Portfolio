@@ -37,35 +37,32 @@ export default function skills() {
     { type: "C++", level: 82 },
     { type: "Python", level: 70 },
     { type: "React", level: 50 },
-    { type: "HTML5", level: 80},
-    { type: "CSS", level: 68 },
-    { type: "JQuery", level: 65 },
-    { type: "Linux Scripting", level: 65 },
+    { type: "HTML5/CSS", level: 80},
   ];
   const colors ={
-    bar: '#E64848',
+    bar: '#708090',
     title:{
       text:'white',
-      background: '#E64848'
+      background: '#708090'
     }
   }
   return (
     <div
       id="skills"
-      className="bg-transparent text-red-600 p-2 mt-20 h-full p-5 "
+      className="bg-transparent p-2 md:h-full md:mt-10 mb-10 "
     >
-      <h1 className="text-8xl font-[Branch] tracking-widest text-center">
+      <h1 className="md:text-8xl text-6xl font-[Branch] tracking-widest md:text-center text-center md:mb-10">
         Skills
       </h1>
-      <div className="flex justify-between text-start p-3">
-        <div className="justify-center text-center text-3xl w-1/2 bg-transparent backdrop-blur-md">
-          <h1 className="text-4xl font-[Branch]">Technologies</h1>
-          <p className=" bg-transparent text-center tracking-tighter text-xl flex p-5">
+      <div className="md:flex grid md:justify-between justify-center md:text-center p-3 text-slate-100 rounded-md space-x-2">
+        <div className="justify-center text-center md:w-full md:h-auto h-auto p-5 bg-slate-900 rounded-lg">
+          <h1 className="text-4xl md:text-4xl font-[Branch] ">Technologies</h1>
+          <p className=" bg-transparent text-center tracking-tighter md:text-xl text-sm flex p-5">
             As a Proficient Engineer, I have explored quite a
             handful of Techs & Tools shown below
           </p>
-          <div className="border-black border-spacing-3 m-2 bg-transparent p-3">
-            <div className="text-6xl justify-between flex">
+          <div className="border-black border-spacing-3 m-2 bg-transparent px-10">
+            <div className="text-4xl md:text-5xl justify-between flex">
               <span className="transition ease-in-out hover:scale-110 duration-500 text-cyan-600">
                 <SiReact />
               </span>
@@ -89,8 +86,8 @@ export default function skills() {
               </span>
             </div>
           </div>
-          <div className="border-black border-spacing-3 m-2 bg-transparent p-3">
-            <div className="flex text-6xl justify-between">
+          <div className=" m-2 bg-transparent px-10">
+            <div className="flex text-4xl md:text-5xl justify-between">
               <span className="transition ease-in-out hover:scale-110 duration-500 text-green-800">
                 <SiAndroidstudio />
               </span>
@@ -111,8 +108,8 @@ export default function skills() {
               </span>
             </div>
           </div>
-          <div className="border-black border-spacing-3 m-2 bg-transparent p-3">
-            <div className="flex text-6xl justify-between space-x-4">
+          <div className="border-black border-spacing-3 m-2 bg-transparent px-10">
+            <div className="flex text-4xl md:text-5xl justify-between ">
               <span className="transition ease-in-out hover:scale-110 duration-500 text-gray-700">
                 <SiPycharm />
               </span>
@@ -133,8 +130,8 @@ export default function skills() {
               </span>
             </div>
           </div>
-          <div className="border-black border-spacing-3 m-2 bg-transparent p-3">
-            <div className="flex text-6xl justify-between space-x-4">
+          <div className="border-black border-spacing-3 m-2 bg-transparent px-10">
+            <div className="flex text-4xl md:text-5xl justify-between">
               <span className="transition ease-in-out hover:scale-110 duration-500 text-black">
                 <SiKalilinux />
               </span>
@@ -159,13 +156,13 @@ export default function skills() {
             </div>
           </div>
         </div>
-        <div className=" justify-center text-center w-1/2 text-4xl bg-transparent backdrop-blur-md">
-          <h1 className=" text-4xl tracking-tighter font-[Branch]">Language Proficiency</h1>
+        <div className=" justify-center text-center h-auto md:w-full md:h-auto p-5 text-4xl bg-transparent mt-5 md:mt-0 bg-slate-900 rounded-lg">
+          <h1 className=" md:text-4xl text-4xl tracking-tighter font-[Branch] md:mx-4 mx-10">Language Proficiency</h1>
           <p>
 
           </p>
-          <div className="m-5 text-xl">
-          <SkillBar className='text-lg' skills={skills} colors={colors} height={35} animationDelay={0} animationDuration={2000}/>
+          <div className="text-xl p-5">
+          <SkillBar className='md:text-lg text-md' skills={skills} colors={colors} height={25} animationDelay={0} animationDuration={2000}/>
           </div>
         </div>
       </div>

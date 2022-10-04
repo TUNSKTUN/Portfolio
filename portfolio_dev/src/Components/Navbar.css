@@ -1,0 +1,4 @@
+.active{
+    @apply font-extrabold border-b-2 border-white transition hover:border-slate-900 ;
+}
+
